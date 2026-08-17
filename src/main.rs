@@ -6,7 +6,11 @@ fn main() -> Result<(), UUIDError>{
     println!("\"_id\": \"{}\",", &uuid); 
     
     let date: Date = Date::new(17, 8, 2026);
-    println!("\"payment_date\": {},", date.timestamp().unwrap());
+    let timestamp = date.timestamp(); 
+    match timestamp {
+        Some(value) => println!("\"payment_date\": {},", value),
+        None               => println!("Timestamp is not available!"),
+   }
 
     Ok(())
 }
