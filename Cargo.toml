@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 uuidgen = {git = "https://github.com/azavgo/uuidgen", branch = "main"}
 timestampepoch = {git = "https://github.com/azavgo/timestampepoch", branch = "main"}
+chrono = "0.4.45"
