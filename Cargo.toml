@@ -1,0 +1,8 @@
+[package]
+name = "unixtimestampuuid"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uuidgen = {git = "https://github.com/azavgo/uuidgen", branch = "main"}
+timestampepoch = {git = "https://github.com/azavgo/timestampepoch", branch = "main"}
