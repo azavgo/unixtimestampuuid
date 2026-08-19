@@ -3,7 +3,9 @@ name = "unixtimestampuuid"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
-uuidgen = {git = "https://github.com/azavgo/uuidgen", branch = "main"}
+[dependencies] 
+uuidv4 = {git = "https://github.com/azavgo/uuidv4", branch = "main"}
 timestampepoch = {git = "https://github.com/azavgo/timestampepoch", branch = "main"}
 chrono = "0.4.45"
+system_helpers = {git = "https://github.com/azavgo/system_helpers", branch = "main"}
+
